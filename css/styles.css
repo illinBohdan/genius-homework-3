@@ -483,14 +483,38 @@ margin-bottom: 48px;
 flex-basis: calc((100% - 32px) / 3);
 }
 
-.procedure-photo{
+
+.procedure-wrapper {
+    position: relative;
+    width: 100%;
+    height: auto;
     border-radius: 0 120px;
+    background-image: linear-gradient(180.05deg,
+            rgba(1, 28, 68, 0) 48.53%,
+            rgba(1, 28, 68, 0.725825) 84.61%,
+            #011C44 101.39%);
 }
 
-.section-procedur-list li{
+.procedure-photo{
+    position: relative;
+    border-radius: 0 120px;
+    width: 100%;
+    height: auto;
+    display: block;
+    z-index: -1;   
+}
+
+
+.procedure-text {
+    position: absolute; 
+    bottom: 32px;
+    left: 115px;
+    right: 77px;
     color: var(--white);
     font-size: 22px;
     line-height: 1.2;
+    margin: 0 auto;
+    text-align: center;
 }
 
 
