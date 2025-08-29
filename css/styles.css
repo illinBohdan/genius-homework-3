@@ -761,6 +761,7 @@ border:none;
     border: 2px solid var(--grey-for-small);
     outline: none;
     color: var(--white);
+    padding: 18px 33px;
 }
 
 .input:focus{
